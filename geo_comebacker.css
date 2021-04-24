@@ -1,0 +1,142 @@
+
+.out-comebacker-content {
+    width: 781px;
+    height: 480px;
+        background: #a0a0a0;
+ 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3c72b5', endColorstr='#7b9fcc', GradientType=1);
+    font-family: Roboto !important;
+    position: relative;
+    border: 5px solid #dddddd;
+}
+
+.out-comebacker-content-close p {
+    font-family: sans-serif;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin: 3px 10px 0 0!important;
+    font-size: 30px;
+    line-height: 20px;
+
+}
+
+p.out-comebacker-content-mainp {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+
+.out-comebacker-content-main-text-img {
+    display: block;
+    width: 96%;
+    padding: 0 2%;
+    margin-top: 15px;
+}
+
+.out-comebacker-content-main-img {
+    float: left;
+    display: block;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.out-comebacker-content-main-img img {
+    display: block;
+    width: 56%;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+
+.out-comebacker-content-main-text {
+  display: block;
+    width: 65%;
+    float: right;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+.out-comebacker-content-main-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    -webkit-margin-before: 0em;           /* PACHINO EDIT */
+    -webkit-margin-after: 0em;            /* PACHINO EDIT */
+    margin-top: 0!important;              /* PACHINO EDIT */
+    margin-bottom: 0!important;          /* PACHINO EDIT */
+    text-align: left;
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.out-comebacker-content-main-text-img:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.out-comebacker-content-btn {
+    display: block;
+    max-width: 294px;
+    margin: 10px auto;
+    font-size: 23px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+        background: #7299c9;
+}
+
+.out-comebacker-content-btn:hover {
+    background: #fff;
+    color: rgb(176, 73, 59);
+}
+
+.content-right {
+    text-align: left;
+}
+
+@media screen and (max-width: 845px) {
+.out-comebacker-content{width:100%;height:auto!important;} /* PACHINO EDIT */ /* PACHINO EDIT */
+.out-comebacker-content-btn{    max-width: 78%;    font-size: 16px;}/* PACHINO EDIT */
+    .out-comebacker-content-main-text p {
+        font-size: 18px;                         
+        text-align: center;                     
+        line-height: 25px;
+    }
+
+    .out-comebacker-content-main-img {
+        display: none;
+    }
+
+    p.out-comebacker-content-mainp {
+        font-size: 20px;
+    }
+
+    .out-comebacker-content-main-text {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+.ps-popup-default{padding:0!important;}
+
+.out-comebacker-content-btn:focus:hover{color:rgb(176, 73, 59)!important;}
+        .out-comebacker-content-btn:hover{text-decoration:none!important;transition: 0.3s!important;}
+        .out-comebacker-content-btn:focus{text-decoration: none;color:#fff;}
+        .out-comebacker-content-btn:active{border: 1px solid #fff;}
+    a:active, a:focus { outline: none; }
+    :focus {outline:none;}
